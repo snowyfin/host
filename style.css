@@ -1,0 +1,31 @@
+:root {
+    background-image:url(Castle_Town_location.png);
+    background-size:100%;
+    background-origin: center;
+}
+
+.center-box{
+    background-color: #EAD8C0;
+    max-width: 450px;
+    text-align: center;
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:200px;
+    padding:50px;
+    border-radius:10px;
+    transform: rotate(1deg);
+}
+.inlet-box{
+    background-color: #A79277;
+    padding:10px;
+    border-radius:10px;
+    transform: rotate(-2deg);
+    margin-bottom:10px;
+}
+.inlet-box a:link{
+    color:#FFF2E1;
+}
+.inlet-box a:visited{
+    color:#FFF2E1;
+}
