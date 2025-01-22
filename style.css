@@ -29,3 +29,24 @@
 .inlet-box a:visited{
     color:#FFF2E1;
 }
+.tab {
+  background-color: var(--colour-1);
+  width: 200px;
+  padding: 20px;
+  height: 500px
+}
+
+.tabs{
+  height:25px;
+  text-align: left;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  transition-duration:0.5s;
+  transform: rotate(5deg);
+}
+
+.tabs:hover {
+  transform: scaleY(1.25) rotate(5deg);
+  transform-origin: center;
+}
